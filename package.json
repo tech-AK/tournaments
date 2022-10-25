@@ -1,0 +1,25 @@
+{
+  "name": "tournaments-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build && next export",
+    "deploy": "next build && next export && firebase deploy",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "bootstrap": "^5.0.0-beta3",
+    "next": "^12.2.4",
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.0.0",
+    "eslint-config-next": "11.1.2",
+    "papaparse": "^5.3.2",
+    "pdf-lib": "^1.17.1",
+    "yarn": "^1.22.19"
+  }
+}
