@@ -32,7 +32,7 @@ function Card(props) {
             <div className="card-body text-dark">
                 <h5 className="card-title">{props.title}</h5>
                 <p className="card-text">{props.description}</p>
-                <Link href={props.link}>
+                <Link /*href={props.link}*/>
                     <a href="#" className="btn btn-primary stretched-link">{props.actiontext}</a>
                 </Link>
             </div>
