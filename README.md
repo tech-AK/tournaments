@@ -12,18 +12,18 @@ This small web app is currently hosted [here](https://tournamentsapp-app.web.app
 ## Usage
 Start the browser and upload the CSV file. The file is supposed to have the following header:
 ````
-GroupName,LastName,FirstName,Weight
+GroupName,LastName,FirstName,WeightGroup
 ````
 
 Example:
 ````
-GroupName,LastName,FirstName,Weight
-Group 50kg,Mueller,Martin,50
-Group 50kg,Mustermann,Thomas,30
-Group 50kg,Hehnen,Tobias,50
-Group 30kg - Women,Baum,Katrin,30
-Group 30kg - Women,Musterfrau,Anne,30
-Group 30kg - Women,Krone,Sofia,30
+GroupName,LastName,FirstName,WeightGroup
+Group 50kg (m),Müller,Martin,50
+Group 50kg (m),Mustermann,Thomas,50
+Group 50kg (m),Hehnen,Tobias,50
+Group 30kg (w),Baum,Katrin,30
+Group 30kg (w),Musterfrau,Anne,30
+Group 30kg (w),Krone,Sofia,30
 ````
 
 After loading the CSV file you will see the main screen containing all matches per each group. 
